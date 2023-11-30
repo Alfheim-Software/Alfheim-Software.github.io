@@ -12,8 +12,12 @@ This document shall be the guidelines set forth by Alfheim Software, as a guide 
 
 ## Approved Licenses
 The following is the current list of approved licenses with the CORE System.  All license texts are linked within this document.
-- [MIT License](/alfheim_development_document/content/#MIT_License)
-- [0-Clause-BSD-License](/alfheim_development_document/#0_Clause_BSD)
+- [MIT License](#MIT_License)
+- [0-Clause-BSD-License](#0_Clause_BSD)
 
 
 ## MIT_License
+testing
+
+##0_Clause_BSD
+test1
