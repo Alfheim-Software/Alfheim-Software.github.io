@@ -1,17 +1,18 @@
 # Alfheim Development Document
 
-### License :: MIT License
+### License :: Alfheim Software Public License
 ### Copyright (c) 2023 Alfheim Software
 ### Version :: 0.0.1
 ### Contributors ::
  Chris 'Moggles' Phelps <alfheimsoftware@gmx.us>
+
 **Alfheim Software - "If it feels right, it is right.  If it feels wrong, it is wrong.**
 	
 This document shall be the guidelines set forth by Alfheim Software, as a guide for proper development of Magis Metasystem and it's core components and packages (CORE System).
 
 ## Approved Licenses
 The following is the current list of approved licenses with the CORE System.  All license texts are linked within this document.
-- [MIT License (Default)](#MIT)
+- [MIT License](#MIT)
 - [0-Clause BSD License](#0_Clause)
 - [1-Clause BSD License](#1_Clause)
 - [2-Clause BSD License](#2_Clause)
@@ -23,7 +24,7 @@ The following is the current list of approved licenses with the CORE System.  Al
 - [Microsoft Public License](#MSPL)
 - [MirOS License](#MirOS)
 - [MIT No Attribution License](#MIT_NA)
-- [Alfheim Software Public License](#ASPL)
+- [Alfheim Software Public License (DEFUALT)](#ASPL)
 - [NTP License](NTP)
 - [PostgreSQL License](#Postgre)
 - [Universal Public License](#UPL)
@@ -217,7 +218,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ## ASPL
 
-This software is Copyright (c) 2023 Alfheim Software and Contributors. All right reserved.
+This software and accompanying Documentation and Files (Source Code) are Copyright (c) 2023 Alfheim Software and Contributors. All right reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -227,15 +228,15 @@ Redistribution and use in source and binary forms, with or without modification,
 
 3. The name Alfheim Software must not be used to endorse or promote products derived from this software without prior written permission from Alfheim Software.
 
-4. The right to distribute this software or to use it for any purpose does not give you the right to use Alfheim Software in any form.
+4. The right to distribute this Source Code or to use it for any purpose does not give you the right to use Alfheim Software name or likeness in any form.
 
 5. If any files originating from Alfheim Software or Contributors are modified, you must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
 
 Disclaimer:
 
-THIS SOFTWARE IS PROVIDED BY ALFHEIM SOFTWARE “AS IS” AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL NAUMEN OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THIS SOURCE CODE IS PROVIDED BY ALFHEIM SOFTWARE “AS IS” AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ALFHEIM SOFTWARE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOURCE CODE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-This software consists of contributions made by Alfheim Software and Contributors. Specific attributions are listed in the accompanying CONTRIBUTORS file.
+This Source Code consists of contributions made by Alfheim Software and Contributors. Specific attributions are listed in the accompanying CONTRIBUTORS file.
 
 ## NTP
 
