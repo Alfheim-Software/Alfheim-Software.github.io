@@ -4,9 +4,8 @@
 ### Copyright (c) 2023 Alfheim Software
 ### Version :: 0.0.1
 ### Contributors ::
-	- Chris 'Moggles' Phelps <alfheimsoftware@gmx.us>
-	
-	**Alfheim Software - "If it feels right, it is right.  If it feels wrong, it is wrong.**
+ Chris 'Moggles' Phelps <alfheimsoftware@gmx.us>
+**Alfheim Software - "If it feels right, it is right.  If it feels wrong, it is wrong.**
 	
 This document shall be the guidelines set forth by Alfheim Software, as a guide for proper development of Magis Metasystem and it's core components and packages (CORE System).
 
@@ -32,6 +31,41 @@ The following is the current list of approved licenses with the CORE System.  Al
 - [W3C Software Notice and License](#W3C)
 - [Creative Commons Attribution 4.0 International License](#CCA4)
 - [Do What The Fuck You Want Public License](#WTFPL)
+
+## Programming Guidelines
+
+The CORE System is being developed in [zig](https://ziglang.org).
+Block Code should be written as follows ::
+```
+pub const func apf () {
+	some function
+}
+```
+_Note: the open bracket goes on the line of the function not on a new line_
+
+Zig allows us to use expressions and as such our coding style should take full advantage of this and make our code as clear and compact as possible.  This should not be to the point of making the code unreadable though. An example code ::
+```
+test "if statement expression" {
+    const a = true;
+    var x: u16 = 0;
+    x += if (a) 1 else 2;
+    try expect(x == 1);
+}
+```
+
+Commenting of code is highly encouraged as it allows people to know why you made the decisions you did with your code and makes it easier to maintain.
+
+Prefer multi-threaded processing instead of single threaded process.
+
+The CORE System uses the [Alfheim Package Format (APF)](#APF) along with the `apf`[#apf] command to build and install packages.  _Note: The packages built are compressed via zpaqfranz and can be distributed as a `binary` package._
+
+## APF
+
+*TODO*
+
+## apf
+
+*TODO*
 
 ## MIT
 Copyright 2023 Alfheim Software
